@@ -1,13 +1,15 @@
-# platform-design · Kuikly Enterprise Design System
+# 守赚 UI · platform-design
 
 > **Docs & demos only.** This repository does **not** contain application or SDK source trees.  
 > Consume the library as a **Maven binary** (`platform-design` AAR). Central ships **placeholder** sources/javadoc only.
 
-| | |
+| Surface | URL |
 |--|--|
-| **Docs site** | https://ui-site.zrlmeng.com |
-| **H5 Gallery demo** | https://ui-demo-h5.zrlmeng.com/ |
+| **Docs site (官网)** | https://ui-site.zrlmeng.com |
+| **H5 Gallery (演示端)** | https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&product_line=ui |
 | **Android Gallery APK** | https://apk-dl.zrlmeng.com/ui.apk |
+| **Minimal host** | [HOST-MINIMAL.md](./HOST-MINIMAL.md) |
+| **vs official Kuikly** | [COMPARE.md](./COMPARE.md) |
 | **Maven** | [`com.sxztdhkjyxgs:platform-design`](https://central.sonatype.com/artifact/com.sxztdhkjyxgs/platform-design) |
 | **Latest verified** | **1.0.24** |
 
