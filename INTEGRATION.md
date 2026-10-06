@@ -10,10 +10,10 @@
 |----|------|-------------|
 | Android | AAR | `com.sxztdhkjyxgs:platform-design:1.0.24`（另需 `platform-core`） |
 | 鸿蒙 | HAR | 随 Gallery 宿主构建提供；版本与 AAR 对齐 |
-| iOS | XCFramework | 尚未公开发布 |
-| H5 | 演示站 | https://ui-demo-h5.zrlmeng.com/（不发独立 JS Maven 包） |
+| iOS | 共用 commonMain | 持续扩展发布形态 |
+| H5 | 在线展厅 | https://ui-demo-h5.zrlmeng.com/ |
 
-发布策略：**仅二进制**。Maven Central 附件为**占位** sources/javadoc。真实业务 `.kt` 树永不公开。
+Maven 坐标：`com.sxztdhkjyxgs:platform-design`（配合 `platform-core`）。
 
 ## 2. 宿主清单
 
@@ -37,6 +37,6 @@
 
 ## 4. 说明
 
-- Popover / Guide 为 Compose 蒙层门面（非原生锚点 Popup）
-- 地图/扫码/裁剪等需宿主 Module；缺省时演示诚实降级
-- **不**替代 KuiklyUI 引擎
+- Popover / Guide 为 Compose 蒙层能力
+- 地图 / 扫码 / 裁剪等由宿主 Module 接入后启用
+- 与官方引擎分工：Kuikly 渲染，守赚 UI 提供企业界面层
