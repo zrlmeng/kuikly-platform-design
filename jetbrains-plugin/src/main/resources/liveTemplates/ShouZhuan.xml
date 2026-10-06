@@ -1,0 +1,33 @@
+<templateSet group="ShouZhuan Kuikly">
+  <template name="sz-button"
+            value="szButton {&#10;    text = &quot;$TEXT$&quot;&#10;    onClick = { $END$ }&#10;}"
+            description="ShouZhuan Kuikly button (public API)"
+            toReformat="true"
+            toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="&quot;OK&quot;" alwaysStopAt="true"/>
+    <context>
+      <option name="KOTLIN" value="true"/>
+    </context>
+  </template>
+  <template name="sz-list"
+            value="szList&lt;String&gt; {&#10;    items = listOf($ITEMS$)&#10;    itemText = { it }&#10;}"
+            description="ShouZhuan Kuikly list (public API)"
+            toReformat="true"
+            toShortenFQNames="true">
+    <variable name="ITEMS" expression="" defaultValue="&quot;a&quot;, &quot;b&quot;" alwaysStopAt="true"/>
+    <context>
+      <option name="KOTLIN" value="true"/>
+    </context>
+  </template>
+  <template name="sz-dialog"
+            value="szDialog {&#10;    title = &quot;$TITLE$&quot;&#10;    message = &quot;$MESSAGE$&quot;&#10;    confirmText = &quot;OK&quot;&#10;    onConfirm = { $END$ }&#10;}"
+            description="ShouZhuan Kuikly dialog (public API)"
+            toReformat="true"
+            toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="&quot;Title&quot;" alwaysStopAt="true"/>
+    <variable name="MESSAGE" expression="" defaultValue="&quot;Message&quot;" alwaysStopAt="true"/>
+    <context>
+      <option name="KOTLIN" value="true"/>
+    </context>
+  </template>
+</templateSet>

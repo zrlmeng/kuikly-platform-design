@@ -1,0 +1,10 @@
+import com.shouzhuan.kuikly.ui.szButton
+import com.shouzhuan.kuikly.ui.szDialog
+import com.shouzhuan.kuikly.ui.szList
+
+fun ${NAME}() {
+    szButton {
+        text = "OK"
+        onClick = { }
+    }
+}
