@@ -64,6 +64,11 @@ implementation("com.sxztdhkjyxgs:platform-design:1.0.24")
 
 见 [COMPARE.md](./COMPARE.md) — 官方引擎原语之上，由 **守赚 UI** 提供企业设计系统与插件能力。[English](./COMPARE.en.md)
 
+## IDE 薄 DX（JetBrains）
+
+Marketplace 插件 **ShouZhuan Kuikly Kit** 源码（仅 IDE 辅助，非业务实现）：  
+[jetbrains-plugin/](./jetbrains-plugin/)
+
 ## 许可 / 联系
 
 - 制品：**Apache-2.0**（见 Maven POM / [LICENSE](./LICENSE)）

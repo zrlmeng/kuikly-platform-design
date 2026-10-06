@@ -1,0 +1,36 @@
+<idea-plugin>
+  <idea-version since-build="241" until-build="253.*" />
+  <version>0.1.0</version>
+  <id>com.shouzhuan.kuikly.kit</id>
+  <name>ShouZhuan Kuikly Kit</name>
+  <vendor url="https://github.com/zrlmeng/kuikly-platform-design">ShouZhuan</vendor>
+  <description><![CDATA[
+ShouZhuan Kuikly public API snippets for Android Studio and DevEco Studio.<br/>
+Insert Maven (build.gradle.kts) or OHPM (oh-package.json5) coordinates.<br/>
+Templates call published APIs only. Component library implementation is not bundled.<br/>
+Source: https://github.com/zrlmeng/kuikly-platform-design/tree/main/jetbrains-plugin
+]]></description>
+  <change-notes><![CDATA[0.1.0: live templates, Maven coordinate, OHPM coordinate for DevEco/Harmony modules.]]></change-notes>
+  <depends>com.intellij.modules.platform</depends>
+  <resource-bundle>messages.SzBundle</resource-bundle>
+  <extensions defaultExtensionNs="com.intellij">
+    <defaultLiveTemplates file="/liveTemplates/ShouZhuan.xml" />
+  </extensions>
+  <actions>
+    <group id="ShouZhuan.Kuikly" text="ShouZhuan Kuikly" popup="true">
+      <add-to-group group-id="ToolsMenu" anchor="last" />
+      <action id="ShouZhuan.AddMavenDependency"
+              class="com.shouzhuan.kuikly.kit.AddMavenDependencyAction"
+              text="Add ShouZhuan Kuikly Maven Coordinate"
+              description="Insert implementation(&quot;com.shouzhuan.kuikly:ui:0.1.0&quot;) into build.gradle.kts" />
+      <action id="ShouZhuan.AddOhpmDependency"
+              class="com.shouzhuan.kuikly.kit.AddOhpmDependencyAction"
+              text="Add ShouZhuan Kuikly OHPM Coordinate"
+              description="Insert @shouzhuan/kuikly into oh-package.json5 (DevEco / Harmony)" />
+      <action id="ShouZhuan.NewSzPage"
+              class="com.shouzhuan.kuikly.kit.NewSzPageAction"
+              text="New ShouZhuan Kuikly Page Stub"
+              description="Create a Kotlin stub that calls public APIs only" />
+    </group>
+  </actions>
+</idea-plugin>
