@@ -56,7 +56,7 @@ AppThemeHost { _, _ ->
 
 ## 5. Host-backed plugins
 
-Map / video / scan / crop / immersive need host Bridge/Module wiring. Facades degrade honestly when missing.
+Map / video / scan / crop / immersive enable after host Bridge/Module wiring.
 
 ## 6. More
 

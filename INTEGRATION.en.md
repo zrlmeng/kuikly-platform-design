@@ -10,10 +10,10 @@
 |-----|----------|-------------------|
 | Android | AAR | `com.sxztdhkjyxgs:platform-design:1.0.24` (+ `platform-core`) |
 | HarmonyOS | HAR | Distributed with Gallery host builds; ask maintainer for matching HAR |
-| iOS | XCFramework | Not published yet |
-| H5 | Demo site | https://ui-demo-h5.zrlmeng.com/ (not a separate Maven JS package) |
+| iOS | Shared commonMain | Packaging expanding |
+| H5 | Live gallery | https://ui-demo-h5.zrlmeng.com/ |
 
-Publish policy: **binary only**. Maven Central attachments use **placeholder** sources/javadoc. Real product `.kt` trees are never published.
+Maven: `com.sxztdhkjyxgs:platform-design` (with `platform-core`).
 
 ## 2. Host checklist
 
@@ -32,13 +32,13 @@ Publish policy: **binary only**. Maven Central attachments use **placeholder** s
 
 Page: `design_system_gallery`. Pass `component=<id>` (e.g. `calendar`, `popover`, `collapse`, `guide`, `steps`, `backtop`).
 
-Public demos:
+Live gallery:
 
 - https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&component=calendar&product_line=ui
 - APK: https://apk-dl.zrlmeng.com/ui.apk
 
 ## 4. Notes
 
-- Popover / Guide are Compose scrim façades (not native anchored Popup).
-- Host modules (map / scan / crop) are optional; demos degrade honestly without keys/modules.
-- This library does **not** replace KuiklyUI.
+- Popover / Guide are Compose overlay capabilities.
+- Map / scan / crop enable after host Module wiring.
+- Split: Kuikly renders; ShouZhuan UI is the enterprise UI layer.

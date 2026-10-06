@@ -70,8 +70,8 @@ AppThemeHost { _, _ ->
 
 | 能力 | 最小期望 |
 |------|----------|
-| 地图 / 视频 / 扫码 / 裁剪 / 沉浸 | 宿主实现 Bridge / Module；无接线时 Gallery 诚实降级 |
-| Markdown / 图表 / 签名 | 多数可在 Compose 面演示；端差异见 [PLATFORMS.md](./PLATFORMS.md) |
+| 地图 / 视频 / 扫码 / 裁剪 / 沉浸 | 宿主 Bridge / Module 接入后启用 |
+| Markdown / 图表 / 签名 | Compose 能力，详见 [PLATFORMS.md](./PLATFORMS.md) |
 
 业务 App 请按隐私合规申请权限（相机等）：**仅用户点击具体功能后申请**，勿冷启弹权限。
 
