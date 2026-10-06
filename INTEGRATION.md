@@ -1,6 +1,8 @@
-# platform-design · INTEGRATION（中文）
+# 守赚 UI · 接入说明
 
-> 公网文档镜像。English: [INTEGRATION.en.md](./INTEGRATION.en.md) · 最小路径: [HOST-MINIMAL.md](./HOST-MINIMAL.md)
+**中文** · [English](./INTEGRATION.en.md)
+
+> 公网文档镜像。最小路径：[HOST-MINIMAL.md](./HOST-MINIMAL.md)
 
 ## 1. 制品
 
