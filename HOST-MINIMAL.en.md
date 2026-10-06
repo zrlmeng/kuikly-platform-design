@@ -1,7 +1,8 @@
-# Minimal host integration (≈30 minutes)
+# ShouZhuan UI · Minimal host integration (≈30 minutes)
 
-> Goal: wire a Kuikly Compose Android host using **Maven binaries only** — no private source trees.  
-> 中文版：[HOST-MINIMAL.md](./HOST-MINIMAL.md)
+[中文](./HOST-MINIMAL.md) · **English**
+
+> Goal: wire a Kuikly Compose Android host using **Maven binaries only** — no private source trees — and show **ShouZhuan UI** theme + one button + Toast.
 
 ## 0. Prerequisites
 

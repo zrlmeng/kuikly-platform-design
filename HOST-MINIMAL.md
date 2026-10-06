@@ -1,7 +1,8 @@
-# 最小宿主集成（30 分钟）
+# 守赚 UI · 最小宿主集成（30 分钟）
 
-> 目标：外部宿主 **只依赖 Maven 二进制**，不打开任何业务源码仓，即可跑通主题 + 一个按钮 + Toast。  
-> English: [HOST-MINIMAL.en.md](./HOST-MINIMAL.en.md)
+**中文** · [English](./HOST-MINIMAL.en.md)
+
+> 目标：外部宿主 **只依赖 Maven 二进制**，不打开任何业务源码仓，即可跑通 **守赚 UI** 主题 + 一个按钮 + Toast。
 
 ## 0. 你需要什么
 

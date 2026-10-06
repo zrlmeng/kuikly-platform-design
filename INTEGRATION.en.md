@@ -1,6 +1,8 @@
-# platform-design · INTEGRATION (English)
+# ShouZhuan UI · Integration
 
-> Public docs mirror. Chinese: [INTEGRATION.md](./INTEGRATION.md) · Minimal path: [HOST-MINIMAL.en.md](./HOST-MINIMAL.en.md)
+[中文](./INTEGRATION.md) · **English**
+
+> Public docs mirror. Minimal path: [HOST-MINIMAL.en.md](./HOST-MINIMAL.en.md)
 
 ## 1. Artifacts
 
