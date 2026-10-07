@@ -1,9 +1,15 @@
-# ShouZhuan UI · platform-design
+# ShouZhuan UI · thin DX public mirror
 
 [中文](./README.md) · **English**
 
-> **ShouZhuan (守赚)** — enterprise business design system for [Kuikly](https://github.com/Tencent-TDS/KuiklyUI) Compose.  
-> Themes, components, scene styles, and plugins in one Maven package.
+> **This repo is a thin DX mirror**: docs + IDE Kit sources + Maven coordinates.  
+> **No** component-library / design-system implementation sources. Runtime = Maven binaries.  
+> Product: **ShouZhuan UI** on [Kuikly](https://github.com/Tencent-TDS/KuiklyUI) Compose.
+
+| Mirror | URL |
+|--|--|
+| **GitHub (this repo)** | https://github.com/zrlmeng/kuikly-platform-design |
+| **Gitee (sync mirror)** | https://gitee.com/zrlmeng/kuikly-platform-design |
 
 | Surface | URL |
 |--|--|
@@ -64,8 +70,18 @@ Details: [PLATFORMS.en.md](./PLATFORMS.en.md) · [中文](./PLATFORMS.md)
 
 See [COMPARE.en.md](./COMPARE.en.md) — official engine primitives plus **ShouZhuan UI** as the enterprise design system. [中文](./COMPARE.md)
 
+## What is / is not in this repo
+
+| Included (public) | Never in this repo |
+|-------------------|--------------------|
+| Integration docs, compare tables, NOTICE | `platform-design` / `platform-core` implementation sources |
+| Thin JetBrains / VS Code IDE Kit sources | Internal enterprise rules / `.cursor/rules` |
+| Maven / OHPM **coordinates** | Business app / vertical sources |
+
+IDE Kit: [jetbrains-plugin/](./jetbrains-plugin/) · VS Code `shouzhuan.shouzhuan-kuikly-kit`
+
 ## License / contact
 
 - Artifacts: **Apache-2.0** (Maven POM / [LICENSE](./LICENSE))
-- Issues: GitHub Issues
+- Issues: GitHub or Gitee Issues
 - Org: [zrlmeng](https://github.com/zrlmeng) · brand **守赚 UI / ShouZhuan UI**

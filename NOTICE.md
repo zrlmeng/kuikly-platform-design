@@ -2,16 +2,16 @@
 
 **中文** · [English](#english)
 
-本仓介绍 **守赚 UI**（platform-design）的能力、文档与体验入口。
+本仓是 **守赚 UI** 的 **薄 DX 公网镜像**（GitHub / Gitee 双端同步）：文档、体验入口与 IDE Kit 源。
 
-- **守赚** 是本设计系统的产品品牌。Kuikly 是腾讯 TDS 的跨端渲染引擎；守赚 UI 构建在其之上，提供企业级业务界面能力。
-- 运行时制品发布于 Maven Central：`com.sxztdhkjyxgs:platform-design`。
+- **不含** 组件库实现源码；运行时请用 Maven Central：`com.sxztdhkjyxgs:platform-design`。
+- **守赚** 为产品品牌。Kuikly 为腾讯 TDS 跨端渲染引擎；守赚 UI 为其上的企业业务界面层。
 - 文档站、在线展厅与 Android 安装包用于能力体验与接入。
 
 ## English
 
-This repository presents **ShouZhuan UI** (platform-design): docs and experience links.
+This repository is the **thin DX public mirror** of **ShouZhuan UI** (GitHub + Gitee): docs, experience links, and IDE Kit sources.
 
+- **No** design-system implementation sources; runtime: Maven Central `com.sxztdhkjyxgs:platform-design`.
 - **守赚 / ShouZhuan** is the product brand. Kuikly is Tencent TDS’s render engine; ShouZhuan UI is the enterprise UI layer on top.
-- Runtime artifacts: Maven Central `com.sxztdhkjyxgs:platform-design`.
 - Docs site, live gallery, and Android APK are for evaluation and integration.

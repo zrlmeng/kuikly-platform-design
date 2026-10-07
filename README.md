@@ -1,9 +1,15 @@
-# 守赚 UI · platform-design
+# 守赚 UI · 薄 DX 公网镜像仓
 
 **中文** · [English](./README.en.md)
 
-> **守赚**出品 · 面向 [Kuikly](https://github.com/Tencent-TDS/KuiklyUI) Compose 的企业级业务设计系统。  
-> 主题、组件、场景风格与插件能力一体交付，Maven 一键接入。
+> **本仓 = 薄 DX 镜像**（文档入口 + IDE Kit 源 + Maven 坐标说明）。  
+> **不含** 组件库 / 设计系统实现源码。运行时请用 Maven 二进制。  
+> 产品：**守赚 UI** · 面向 [Kuikly](https://github.com/Tencent-TDS/KuiklyUI) Compose。
+
+| 镜像 | 地址 |
+|------|------|
+| **GitHub（本仓）** | https://github.com/zrlmeng/kuikly-platform-design |
+| **Gitee（同步镜像）** | https://gitee.com/zrlmeng/kuikly-platform-design |
 
 | 入口 | 地址 |
 |------|------|
@@ -64,13 +70,21 @@ implementation("com.sxztdhkjyxgs:platform-design:1.0.24")
 
 见 [COMPARE.md](./COMPARE.md) — 官方引擎原语之上，由 **守赚 UI** 提供企业设计系统与插件能力。[English](./COMPARE.en.md)
 
-## IDE 薄 DX（JetBrains）
+## 本仓有什么 / 没有什么
 
-Marketplace 插件 **ShouZhuan Kuikly Kit** 源码（仅 IDE 辅助，非业务实现）：  
-[jetbrains-plugin/](./jetbrains-plugin/)
+| 有（可公开） | 没有（永不进本仓） |
+|-------------|-------------------|
+| 接入文档、对照表、NOTICE | `platform-design` / `platform-core` 实现源码树 |
+| JetBrains / VS Code 薄 IDE Kit 源 | 企业规范原文、`.cursor/rules`、内部台账 |
+| Maven / OHPM **坐标**与用法 | 业务 App / 垂直模块源码 |
+
+## IDE 薄 DX
+
+- JetBrains：**ShouZhuan Kuikly Kit** → [jetbrains-plugin/](./jetbrains-plugin/)
+- VS Code / Cursor：Marketplace `shouzhuan.shouzhuan-kuikly-kit`（薄 DX，同能力）
 
 ## 许可 / 联系
 
 - 制品：**Apache-2.0**（见 Maven POM / [LICENSE](./LICENSE)）
-- 问题：本仓 GitHub Issues
+- 问题：本仓 Issues（GitHub 或 Gitee）
 - 维护：[zrlmeng](https://github.com/zrlmeng) · 品牌 **守赚 UI**
