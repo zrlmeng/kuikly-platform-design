@@ -1,19 +1,15 @@
-# ShouZhuan UI · thin DX public mirror
+# ShouZhuan UI · platform-design
 
 [中文](./README.md) · **English**
 
-> **This repo is a thin DX mirror**: docs + IDE Kit sources + Maven coordinates.  
-> **No** component-library / design-system implementation sources. Runtime = Maven binaries.  
-> Product: **ShouZhuan UI** on [Kuikly](https://github.com/Tencent-TDS/KuiklyUI) Compose.
-
-| Mirror | URL |
-|--|--|
-| **GitHub (this repo)** | https://github.com/zrlmeng/kuikly-platform-design |
-| **Gitee (sync mirror)** | https://gitee.com/zrlmeng/kuikly-platform-design |
+> **ShouZhuan (守赚)** — enterprise business design system for [Kuikly](https://github.com/Tencent-TDS/KuiklyUI) Compose.  
+> Themes, components, scene styles, and plugins in one Maven package.
 
 | Surface | URL |
 |--|--|
-| **Docs** | https://ui-site.zrlmeng.com |
+| **UI component docs** | https://ui-site.zrlmeng.com |
+| **Community edition site** | https://install-site.zrlmeng.com |
+| **Help docs** | https://docs.zrlmeng.com/community/ |
 | **Live gallery** | https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&product_line=ui |
 | **Android APK** | https://apk-dl.zrlmeng.com/ui.apk |
 | **Quick start** | [HOST-MINIMAL.en.md](./HOST-MINIMAL.en.md) |
@@ -70,18 +66,8 @@ Details: [PLATFORMS.en.md](./PLATFORMS.en.md) · [中文](./PLATFORMS.md)
 
 See [COMPARE.en.md](./COMPARE.en.md) — official engine primitives plus **ShouZhuan UI** as the enterprise design system. [中文](./COMPARE.md)
 
-## What is / is not in this repo
-
-| Included (public) | Never in this repo |
-|-------------------|--------------------|
-| Integration docs, compare tables, NOTICE | `platform-design` / `platform-core` implementation sources |
-| Thin JetBrains / VS Code IDE Kit sources | Internal enterprise rules / `.cursor/rules` |
-| Maven / OHPM **coordinates** | Business app / vertical sources |
-
-IDE Kit: [jetbrains-plugin/](./jetbrains-plugin/) · VS Code `shouzhuan.shouzhuan-kuikly-kit`
-
 ## License / contact
 
 - Artifacts: **Apache-2.0** (Maven POM / [LICENSE](./LICENSE))
-- Issues: GitHub or Gitee Issues
+- Issues: GitHub Issues
 - Org: [zrlmeng](https://github.com/zrlmeng) · brand **守赚 UI / ShouZhuan UI**
