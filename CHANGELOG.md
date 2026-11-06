@@ -8,7 +8,8 @@
 
 - 官网首页同步机生指标：**91** 语义组件 · **10** 分区 · **152** Gallery 深链 · **70** 属性深页 · **7** 插件域
 - 组件编目与 `COMPONENT-INVENTORY` 同频（含隐私同意 / 壳层确认 / 业务门闸 / 鉴权法务等业务模板）
-- 新增 **应用市场多店下载页**：https://m.malink.cn/s/QJjAze（华为 / 小米 / vivo / OPPO / 鸿蒙等；苹果开发中）
+- 新增安卓商店下载（OPPO、vivo、小米、荣耀、华为）：https://m.malink.cn/s/QJjAze
+- 新增鸿蒙商店下载：https://appgallery.huawei.com/app/detail?id=com.hmztdh.ui&channelId=SHARE&source=appshare
 - README / INTEGRATION 补齐规模口径、上架说明；`platform-core` 坐标与 design 对齐为 **1.0.24**
 - 帮助手册入口：https://docs.zrlmeng.com/community/
 

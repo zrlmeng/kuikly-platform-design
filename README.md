@@ -11,7 +11,8 @@
 | **社区版官网** | https://install-site.zrlmeng.com |
 | **帮助手册** | https://docs.zrlmeng.com/community/ |
 | **在线组件展厅** | https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&product_line=ui |
-| **应用市场下载（多店）** | https://m.malink.cn/s/QJjAze |
+| **OPPO、vivo、小米、荣耀、华为商店下载** | https://m.malink.cn/s/QJjAze |
+| **鸿蒙商店下载** | https://appgallery.huawei.com/app/detail?id=com.hmztdh.ui&channelId=SHARE&source=appshare |
 | **Android 安装包** | https://apk-dl.zrlmeng.com/ui.apk |
 | **快速接入** | [HOST-MINIMAL.md](./HOST-MINIMAL.md) |
 | **能力对照** | [COMPARE.md](./COMPARE.md) |
@@ -31,7 +32,7 @@
 - 办公 / 娱乐 **双场景风格** + OEM **品牌换肤** + 浅色 / 深色
 - 商业级新拟态质感（外凸 / 内凹 / 主按钮光晕）
 - 图表、签名、Markdown、媒体选择等插件能力（官网登记 **7** 大插件域）
-- Gallery 应用已上架：**华为 / 小米 / vivo / OPPO** 与 **鸿蒙应用市场**（苹果开发中）；统一下载页见上表
+- Gallery 应用已上架：**OPPO / vivo / 小米 / 荣耀 / 华为** 安卓商店，以及 **鸿蒙商店**（苹果开发中）；下载入口见上表
 
 与官方引擎分工清晰：Kuikly 负责跨端渲染，**守赚 UI** 负责企业业务界面层（对标 Vant / TDesign 量级）。**不替代**官方引擎。
 
@@ -51,7 +52,8 @@ implementation("com.sxztdhkjyxgs:platform-design:1.0.24")
 | 官网文档 | https://ui-site.zrlmeng.com |
 | 在线组件展厅 | https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&product_line=ui |
 | 组件直达 | https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&component=calendar&product_line=ui |
-| 应用市场下载（多店） | https://m.malink.cn/s/QJjAze |
+| OPPO、vivo、小米、荣耀、华为商店下载 | https://m.malink.cn/s/QJjAze |
+| 鸿蒙商店下载 | https://appgallery.huawei.com/app/detail?id=com.hmztdh.ui&channelId=SHARE&source=appshare |
 | Android 安装包 | https://apk-dl.zrlmeng.com/ui.apk |
 
 展厅页名：`design_system_gallery` · 参数 `component=<id>`（如 `calendar`、`popover`、`guide`）。

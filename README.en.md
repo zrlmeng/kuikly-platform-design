@@ -11,7 +11,8 @@
 | **Community edition site** | https://install-site.zrlmeng.com |
 | **Help docs** | https://docs.zrlmeng.com/community/ |
 | **Live gallery** | https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&product_line=ui |
-| **App store download (multi)** | https://m.malink.cn/s/QJjAze |
+| **OPPO / vivo / Xiaomi / Honor / Huawei store** | https://m.malink.cn/s/QJjAze |
+| **HarmonyOS AppGallery** | https://appgallery.huawei.com/app/detail?id=com.hmztdh.ui&channelId=SHARE&source=appshare |
 | **Android APK** | https://apk-dl.zrlmeng.com/ui.apk |
 | **Quick start** | [HOST-MINIMAL.en.md](./HOST-MINIMAL.en.md) |
 | **vs official Kuikly** | [COMPARE.en.md](./COMPARE.en.md) |
@@ -31,7 +32,7 @@
 - Office / entertainment **scene styles** + OEM **branding** + light/dark
 - Production neumorphic surfaces (convex / concave / CTA glow)
 - Charts, signature, Markdown, and media-picker plugins (**7** plugin domains on the docs site)
-- Gallery app listed on **Huawei / Xiaomi / vivo / OPPO** and **HarmonyOS** stores (iOS in progress); multi-store link above
+- Gallery app listed on **OPPO / vivo / Xiaomi / Honor / Huawei** Android stores and **HarmonyOS AppGallery** (iOS in progress); download links above
 
 Clear split: Kuikly renders across platforms; **ShouZhuan UI** is the Vant / TDesign-class business layer on top. **Not** an engine replacement.
 
@@ -51,7 +52,8 @@ Guides: [HOST-MINIMAL.en.md](./HOST-MINIMAL.en.md) · [INTEGRATION.en.md](./INTE
 | Docs | https://ui-site.zrlmeng.com |
 | Live gallery | https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&product_line=ui |
 | Component deep link | https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&component=calendar&product_line=ui |
-| App store download (multi) | https://m.malink.cn/s/QJjAze |
+| OPPO / vivo / Xiaomi / Honor / Huawei store | https://m.malink.cn/s/QJjAze |
+| HarmonyOS AppGallery | https://appgallery.huawei.com/app/detail?id=com.hmztdh.ui&channelId=SHARE&source=appshare |
 | Android APK | https://apk-dl.zrlmeng.com/ui.apk |
 
 Gallery page: `design_system_gallery` · `component=<id>` (e.g. `calendar`, `popover`, `guide`).
