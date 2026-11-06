@@ -11,9 +11,11 @@
 | **社区版官网** | https://install-site.zrlmeng.com |
 | **帮助手册** | https://docs.zrlmeng.com/community/ |
 | **在线组件展厅** | https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&product_line=ui |
+| **应用市场下载（多店）** | https://m.malink.cn/s/QJjAze |
 | **Android 安装包** | https://apk-dl.zrlmeng.com/ui.apk |
 | **快速接入** | [HOST-MINIMAL.md](./HOST-MINIMAL.md) |
 | **能力对照** | [COMPARE.md](./COMPARE.md) |
+| **变更说明** | [CHANGELOG.md](./CHANGELOG.md) |
 | **Maven** | [`com.sxztdhkjyxgs:platform-design`](https://central.sonatype.com/artifact/com.sxztdhkjyxgs/platform-design) |
 | **当前版本** | **1.0.24** |
 
@@ -24,12 +26,14 @@
 **守赚 UI**（工程名 **platform-design**）把企业级业务界面能力做到 Kuikly Compose 应用里：
 
 - 品牌：**守赚**（ShouZhuan）· 文档默认中文，可切英文
-- 完整主题与组件：表单、反馈、导航、数据展示、业务模板
+- 机生编目：**91** 项语义组件 · **10** 大分区（主题 / 基础 / 表单 / 反馈 / 导航 / 数据展示 / 新拟态 / 业务模板 / 插件·Host / 自适应）
+- Gallery：**152** 个深链 ID；真机展厅「全部组件」约 **149** 项就绪
 - 办公 / 娱乐 **双场景风格** + OEM **品牌换肤** + 浅色 / 深色
 - 商业级新拟态质感（外凸 / 内凹 / 主按钮光晕）
-- 图表、签名、Markdown、媒体选择等插件能力
+- 图表、签名、Markdown、媒体选择等插件能力（官网登记 **7** 大插件域）
+- Gallery 应用已上架：**华为 / 小米 / vivo / OPPO** 与 **鸿蒙应用市场**（苹果开发中）；统一下载页见上表
 
-与官方引擎分工清晰：Kuikly 负责跨端渲染，**守赚 UI** 负责企业业务界面层（对标 Vant / TDesign 量级）。
+与官方引擎分工清晰：Kuikly 负责跨端渲染，**守赚 UI** 负责企业业务界面层（对标 Vant / TDesign 量级）。**不替代**官方引擎。
 
 ## 安装（Android）
 
@@ -47,6 +51,7 @@ implementation("com.sxztdhkjyxgs:platform-design:1.0.24")
 | 官网文档 | https://ui-site.zrlmeng.com |
 | 在线组件展厅 | https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&product_line=ui |
 | 组件直达 | https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&component=calendar&product_line=ui |
+| 应用市场下载（多店） | https://m.malink.cn/s/QJjAze |
 | Android 安装包 | https://apk-dl.zrlmeng.com/ui.apk |
 
 展厅页名：`design_system_gallery` · 参数 `component=<id>`（如 `calendar`、`popover`、`guide`）。

@@ -11,9 +11,11 @@
 | **Community edition site** | https://install-site.zrlmeng.com |
 | **Help docs** | https://docs.zrlmeng.com/community/ |
 | **Live gallery** | https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&product_line=ui |
+| **App store download (multi)** | https://m.malink.cn/s/QJjAze |
 | **Android APK** | https://apk-dl.zrlmeng.com/ui.apk |
 | **Quick start** | [HOST-MINIMAL.en.md](./HOST-MINIMAL.en.md) |
 | **vs official Kuikly** | [COMPARE.en.md](./COMPARE.en.md) |
+| **Changelog** | [CHANGELOG.md](./CHANGELOG.md) |
 | **Maven** | [`com.sxztdhkjyxgs:platform-design`](https://central.sonatype.com/artifact/com.sxztdhkjyxgs/platform-design) |
 | **Version** | **1.0.24** |
 
@@ -24,12 +26,14 @@
 **ShouZhuan UI** (package **platform-design**) brings a full enterprise UI layer to Kuikly Compose apps:
 
 - Brand: **守赚 / ShouZhuan** — Chinese docs by default, English available
-- Themes and components: forms, feedback, navigation, data display, business templates
+- Live inventory: **91** semantic components · **10** catalog sections
+- Gallery: **152** deep-link ids; device gallery lists ~**149** ready samples
 - Office / entertainment **scene styles** + OEM **branding** + light/dark
 - Production neumorphic surfaces (convex / concave / CTA glow)
-- Charts, signature, Markdown, and media-picker plugins
+- Charts, signature, Markdown, and media-picker plugins (**7** plugin domains on the docs site)
+- Gallery app listed on **Huawei / Xiaomi / vivo / OPPO** and **HarmonyOS** stores (iOS in progress); multi-store link above
 
-Clear split: Kuikly renders across platforms; **ShouZhuan UI** is the Vant / TDesign-class business layer on top.
+Clear split: Kuikly renders across platforms; **ShouZhuan UI** is the Vant / TDesign-class business layer on top. **Not** an engine replacement.
 
 ## Install (Android)
 
@@ -47,6 +51,7 @@ Guides: [HOST-MINIMAL.en.md](./HOST-MINIMAL.en.md) · [INTEGRATION.en.md](./INTE
 | Docs | https://ui-site.zrlmeng.com |
 | Live gallery | https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&product_line=ui |
 | Component deep link | https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&component=calendar&product_line=ui |
+| App store download (multi) | https://m.malink.cn/s/QJjAze |
 | Android APK | https://apk-dl.zrlmeng.com/ui.apk |
 
 Gallery page: `design_system_gallery` · `component=<id>` (e.g. `calendar`, `popover`, `guide`).

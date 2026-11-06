@@ -34,6 +34,10 @@ Maven 坐标：`com.sxztdhkjyxgs:platform-design`（配合 `platform-core`）。
 
 - H5：https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&component=calendar&product_line=ui
 - APK：https://apk-dl.zrlmeng.com/ui.apk
+- 应用市场（多店）：https://m.malink.cn/s/QJjAze
+- 新增深链示例：`privacy_consent` · `shell_confirm` · `app_gate` · `auth_legal` · `otp` · `pagination`
+
+官网组件编目（2026-11-06 已同频 · **91** 项 / **10** 分区）：https://ui-site.zrlmeng.com/components
 
 ## 4. 说明
 

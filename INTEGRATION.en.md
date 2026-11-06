@@ -36,6 +36,9 @@ Live gallery:
 
 - https://ui-demo-h5.zrlmeng.com/?page_name=design_system_gallery&component=calendar&product_line=ui
 - APK: https://apk-dl.zrlmeng.com/ui.apk
+- App stores (multi): https://m.malink.cn/s/QJjAze
+
+Docs catalog (synced 2026-11-06 · **91** items / **10** sections): https://ui-site.zrlmeng.com/components
 
 ## 4. Notes
 
