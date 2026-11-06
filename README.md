@@ -32,7 +32,7 @@
 - 办公 / 娱乐 **双场景风格** + OEM **品牌换肤** + 浅色 / 深色
 - 商业级新拟态质感（外凸 / 内凹 / 主按钮光晕）
 - 图表、签名、Markdown、媒体选择等插件能力（官网登记 **7** 大插件域）
-- Gallery 应用已上架：**OPPO / vivo / 小米 / 荣耀 / 华为** 安卓商店，以及 **鸿蒙商店**（苹果开发中）；下载入口见上表
+- Gallery 应用已上架：**OPPO / vivo / 小米 / 荣耀 / 华为** 安卓商店下载 https://m.malink.cn/s/QJjAze ；**鸿蒙商店** https://appgallery.huawei.com/app/detail?id=com.hmztdh.ui&channelId=SHARE&source=appshare （苹果开发中）
 
 与官方引擎分工清晰：Kuikly 负责跨端渲染，**守赚 UI** 负责企业业务界面层（对标 Vant / TDesign 量级）。**不替代**官方引擎。
 
